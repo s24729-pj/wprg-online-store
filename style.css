@@ -1,8 +1,21 @@
-#suggested-products {
+#main-content {
+    /*border: 1px solid black;*/
+    display: flex;
+}
+
+#recently-viewed-products {
+    /*border: 1px solid red;*/
     display: flex;
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
+    width: 100%;
+}
+
+#categories-menu {
+    /*border: 1px solid green;*/
+    width: 100%;
+    list-style: none;
 }
 
 #nav-bar {
@@ -44,4 +57,17 @@
 
 #additional-info-container {
     width: 50%;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#summary {
+    display: flex;
+    flex-direction: column;
 }
